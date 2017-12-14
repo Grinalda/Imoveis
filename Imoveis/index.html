@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" href="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Grinalda Soares">
+
+    <title>Top Imóveis</title>
+
+    <link rel="stylesheet" href="admin/html/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="admin/html/css/style.css">
+    <link rel="stylesheet" href="resources/CSS/index.css">
+
+</head>
+
+<body>
+    <div class="row areaMenu">
+        Area Menu
+    </div>
+    <div class="row Search-area">
+        <div class="container text-center">
+            <h1>Encontre a Casa dos Seus Sonhos no XPTO Ltd</h1>
+            <div class="areaForm">
+                <select class="form-control col-md-2 col-sm-12" name="">
+                    <option value="Comprar">Comprar</option>
+                    <option value="Alugar">Alugar</option>
+                    <option value="Lancamento">Lançamentos</option>
+                </select>
+                <select class="form-control col-md-2 col-sm-12" name="">
+                    <option value="">Casas</option>
+                    <option value="">Lojas</option>
+                    <option value="">Apartamentos</option>
+                </select>
+                <input class="form-control col-md-5 col-sm-12" type="text" placeholder="Digite a localidade, distrito ou bairo">
+                <button class="btn btn-primary col-md-2">Procurar</button>
+            </div>
+            <div class="areaAnuncio">
+                <p>Anuncie no XPTO</p>
+                <button class="btn btn-primary btn-lg">Anunciar Meu Imóvel</button>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="areaDown text-center">
+        <span class="bt-descer glyphicon glyphicon-menu-down" title="descer"></span>
+    </div>
+    <div class="row areaSugestao">
+        <div class="container">
+            <div class="pull-left">
+                <h3 class="title">Imóveis em Destaque</h3>
+            </div>
+            <div class="pull-right btDestaque">
+                <a href="" class="btn btn-info">Ver Todos</a>
+            </div>
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <section class="col-md-3">
+                            <div class="areaIMG">
+                                <img src="resources/IMG/img1.jpg" alt="">
+                                <div class="areaBTt">
+                                    <button class="btn btn-info">Em Destaque</button>
+                                    <i class="glyphicon glyphicon-heart-empty"></i>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h3 class="box-title">Moradia</h3>
+                                <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                                <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                                <small class="text-muted">Preço negociável</small>
+                            </div>
+                        </section>
+                        <section class="col-md-3">
+                            <div class="areaIMG">
+                                <img src="resources/IMG/img2.jpg" alt="">
+                                <div class="areaBTt">
+                                    <button class="btn btn-info">Em Destaque</button>
+                                    <i class="glyphicon glyphicon-heart-empty"></i>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h3 class="box-title">Apartamento </h3>
+                                <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                                <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                                <small class="text-muted">Preço Fixo</small>
+                            </div>
+                        </section>
+                        <section class="col-md-3">
+                            <div class="areaIMG">
+                                <img src="resources/IMG/img3.jpg" alt="">
+                                <div class="areaBTt">
+                                    <button class="btn btn-info">Em Destaque</button>
+                                    <i class="glyphicon glyphicon-heart-empty"></i>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h3 class="box-title">Loja </h3>
+                                <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                                <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                                <small class="text-muted">Preço negociável</small>
+                            </div>
+                        </section>
+                        <section class="col-md-3">
+                            <div class="areaIMG">
+                                <img src="resources/IMG/img5.jpg" alt="">
+                                <div class="areaBTt">
+                                    <button class="btn btn-info">Em Destaque</button>
+                                    <i class="glyphicon glyphicon-heart-empty"></i>
+                                </div>
+                            </div>
+                            <div class="product-text">
+                                <h3 class="box-title">Moradia </h3>
+                                <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                                <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                                <small class="text-muted">Preço negociável</small>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container">
+                        <section class="col-md-3 col-sm-2">
+                            <div class="areaIMG">
+                                <img src="resources/IMG/img1.jpg" alt="">
+                            </div>
+
+                            <div class="product-text">
+                                <h3 class="box-title">Moradia </h3>
+                                <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                                <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                                <small class="text-muted">Preço negociável</small>
+                            </div>
+                        </section>
+                        <section class="col-md-3">
+                            <div class="areaIMG">
+                                <img src="resources/IMG/img2.jpg" alt="">
+                            </div>
+                            <div class="product-text">
+                                <h3 class="box-title">Apartamento </h3>
+                                <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                                <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                                <small class="text-muted">Preço Fixo</small>
+                            </div>
+                        </section>
+                        <section class="col-md-3"><img src="resources/IMG/img3.jpg" alt="">
+                            <div class="product-text">
+                                <h3 class="box-title">Loja </h3>
+                                <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                                <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                                <small class="text-muted">Preço negociável</small>
+                            </div>
+                        </section>
+                        <section class="col-md-3"><img src="resources/IMG/img5.jpg" alt="">
+                            <div class="product-text">
+                                <h3 class="box-title">Moradia </h3>
+                                <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                                <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                                <small class="text-muted">Preço negociável</small>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+    </div>
+    <div class="row areaMarketing center-block text-center">
+        <section class="introduction">
+            <h2> O maior portal de imóveis de São Tomé e Príncipe </h2>
+            <ul class="container">
+                <li class="col-md-4">
+                    <i class="glyphicon glyphicon-home"></i>
+                    <h3> Mais de 5 milhões de imóveis </h3>
+                    <p>
+                        Encontrar o imóvel dos seus sonhos se torna uma experiência ainda melhor com
+                        mais de 5 milhões de opções que o VivaReal oferece.
+                    </p>
+                </li>
+
+                <li class="col-md-4">
+                    <i class="glyphicon glyphicon-check"></i>
+                    <h3> Encontre seu imóvel perfeito </h3>
+                    <p>
+                        É possível buscar seu novo lar através dos filtros de palavra-chave, características
+                        e valor total de aluguel que o VivaReal mostra para você.
+                    </p>
+                </li>
+
+                <li class="col-md-4">
+                    <i class="glyphicon glyphicon-phone"></i>
+                    <h3> Seu imóvel na palma da mão </h3>
+                    <p>
+                        Quer buscar imóveis de qualquer lugar, falar com corretores, agendar visitas
+                        e ver facilidades ao redor do imóvel? Baixe o app VivaReal grátis.
+                    </p>
+                </li>
+            </ul>
+
+        </section>
+    </div>
+    <div class="row areaSugestao">
+        <div class="container">
+            <div class="pull-left">
+                <h3 class="title">Imóveis Recentes</h3>
+            </div>
+            <div class="pull-right btDestaque">
+                <a href="" class="btn btn-info">Todos</a>
+                <a href="" class="btn btn-default">Casa</a>
+                <a href="" class="btn btn-default">Lote/Terreno</a>
+                <a href="" class="btn btn-default">Quartos de Hotel</a>
+                <a href="" class="btn btn-default">Escritório</a>
+                <a href="" class="btn btn-default">Loja</a>
+                <a href="" class="btn btn-default">Quinta</a>
+            </div>
+        </div>
+        <div class="container">
+            <section class="col-md-3">
+                <div class="areaIMG">
+                    <img src="resources/IMG/img1.jpg" alt="">
+                    <div class="areaBTt">
+                        <button class="btn btn-success"> Novo </button>
+                        <i class="glyphicon glyphicon-heart-empty"></i>
+                    </div>
+                </div>
+                <div class="product-text">
+                    <h3 class="box-title">Moradia</h3>
+                    <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                    <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                    <small class="text-muted">Preço negociável</small>
+                </div>
+            </section>
+            <section class="col-md-3">
+                <div class="areaIMG">
+                    <img src="resources/IMG/Ter.jpg" alt="">
+                    <div class="areaBTt">
+                        <button class="btn btn-success"> Novo </button>
+                        <i class="glyphicon glyphicon-heart-empty"></i>
+                    </div>
+                </div>
+                <div class="product-text">
+                    <h3 class="box-title">Apartamento </h3>
+                    <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                    <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                    <small class="text-muted">Preço Fixo</small>
+                </div>
+            </section>
+            <section class="col-md-3">
+                <div class="areaIMG">
+                    <img src="resources/IMG/Ter5.jpg" alt="">
+                    <div class="areaBTt">
+                        <button class="btn btn-success"> Novo </button>
+                        <i class="glyphicon glyphicon-heart-empty"></i>
+                    </div>
+                </div>
+                <div class="product-text">
+                    <h3 class="box-title">Loja </h3>
+                    <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                    <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                    <small class="text-muted">Preço negociável</small>
+                </div>
+            </section>
+            <section class="col-md-3">
+                <div class="areaIMG">
+                    <img src="resources/IMG/img5.jpg" alt="">
+                    <div class="areaBTt">
+                        <button class="btn btn-success"> Novo </button>
+                        <i class="glyphicon glyphicon-heart-empty"></i>
+                    </div>
+                </div>
+                <div class="product-text">
+                    <h3 class="box-title">Moradia </h3>
+                    <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                    <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                    <small class="text-muted">Preço negociável</small>
+                </div>
+            </section>
+            <section class="col-md-3">
+                <div class="areaIMG">
+                    <img src="resources/IMG/Ter2.png" alt="">
+                    <div class="areaBTt">
+                        <button class="btn btn-success"> Novo </button>
+                        <i class="glyphicon glyphicon-heart-empty"></i>
+                    </div>
+                </div>
+                <div class="product-text">
+                    <h3 class="box-title">Moradia</h3>
+                    <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                    <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                    <small class="text-muted">Preço negociável</small>
+                </div>
+            </section>
+            <section class="col-md-3">
+                <div class="areaIMG">
+                    <img src="resources/IMG/Ter3.jpg" alt="">
+                    <div class="areaBTt">
+                        <button class="btn btn-success"> Novo </button>
+                        <i class="glyphicon glyphicon-heart-empty"></i>
+                    </div>
+                </div>
+                <div class="product-text">
+                    <h3 class="box-title">Apartamento </h3>
+                    <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                    <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                    <small class="text-muted">Preço Fixo</small>
+                </div>
+            </section>
+            <section class="col-md-3">
+                <div class="areaIMG">
+                    <img src="resources/IMG/img3.jpg" alt="">
+                    <div class="areaBTt">
+                        <button class="btn btn-success"> Novo </button>
+                        <i class="glyphicon glyphicon-heart-empty"></i>
+                    </div>
+                </div>
+                <div class="product-text">
+                    <h3 class="box-title">Loja </h3>
+                    <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                    <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                    <small class="text-muted">Preço negociável</small>
+                </div>
+            </section>
+            <section class="col-md-3">
+                <div class="areaIMG">
+                    <img src="resources/IMG/Ter6.jpg" alt="">
+                    <div class="areaBTt">
+                        <button class="btn btn-success"> Novo </button>
+                        <i class="glyphicon glyphicon-heart-empty"></i>
+                    </div>
+                </div>
+                <div class="product-text">
+                    <h3 class="box-title">Moradia </h3>
+                    <small class="city"><i class="glyphicon glyphicon-map-marker"></i> Riba Mato, Mé-zochi</small>
+                    <span class="pro-price"> 300 640.00 <small>STD</small></span>
+                    <small class="text-muted">Preço negociável</small>
+                </div>
+            </section>
+        </div>
+    </div>
+<!--<div class="row areaEmail text-center center-block">
+    <h1>Receba as Novidades por email</h1>
+    <h4>Inscreva-se e receba os anuncios diretamente no seu email </h4>
+    <div class="input-group">
+        <input type="email" class="form-control" placeholder="Insira seu Email..." aria-label="Insira seu email">
+        <span class="input-group-addon btn-primary" id=""><i class="fa fa-arrow-right"></i></span>
+    </div>
+</div>-->
+<div class="row areaParceiros">
+    <div class="container">
+        <h2 class="title text-center">Nossos Parceiros</h2>
+    </div>
+    <div class="container">
+        <section class="col-md-2"><img class="img-responsive" src="resources/IMG/image1.png" alt=""></section>
+        <section class="col-md-2"><img class="img-responsive" src="resources/IMG/image1.png" alt=""></section>
+        <section class="col-md-2"><img class="img-responsive" src="resources/IMG/image1.png" alt=""></section>
+        <section class="col-md-2"><img class="img-responsive" src="resources/IMG/image1.png" alt=""></section>
+        <section class="col-md-2"><img class="img-responsive" src="resources/IMG/image1.png" alt=""></section>
+        <section class="col-md-2"><img class="img-responsive" src="resources/IMG/image1.png" alt=""></section>
+
+    </div>
+</div>
+    <div class="row areaParceiros">
+        <div class="container">
+            <h2 class="title text-center">Buscas Populares</h2>
+        </div>
+        <div class="container">
+            <div class="col-md-2">
+                <h5>Busca Por Distrito</h5>
+                <ul>
+                    <li><a href="#">Agua Grande</a></li>
+                    <li><a href="#">Mé-Zochi</a></li>
+                    <li><a href="#">Cantagalo</a></li>
+                    <li><a href="#">Caué</a></li>
+                    <li><a href="#">Lembá</a></li>
+                    <li> <a href="#">Lobata</a></li>
+                    <li><a href="#">Príncipe</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-3">
+               <h5>Busca por Localidades mais populares</h5>
+                <ul>
+                    <li><a href="#">Bombom</a></li>
+                    <li><a href="#">Neves</a></li>
+                    <li><a href="#">Trindade</a></li>
+                    <li><a href="#">Riboque</a></li>
+                    <li><a href="#">Angulares</a></li>
+                    <li><a href="#">Porto Alegre</a></li>
+                    <li><a href="#">Madalena</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="resources/JS/jquery.js"></script>
+<script src="admin/html/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script>
+    $('.carousel').carousel({
+        interval:20000
+    });
+</script>
+</html>

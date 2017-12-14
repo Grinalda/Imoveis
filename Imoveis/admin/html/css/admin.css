@@ -1,0 +1,63 @@
+.hidden{
+    overflow-y: hidden;
+}
+#example23 tbody tr{
+
+}
+#example23 tbody tr:hover{
+    background: #dddddd;
+}
+.areaMoreInfo{
+    position: fixed;
+    height: 90vh;
+    width: 81vw;
+    right: 0;
+    bottom: 0 !important;
+    z-index: 90;
+    border: 2px solid #eee;
+    background: #fff;
+    overflow: auto;
+    transition: right 1s;
+    padding: 0;
+}
+
+.out{
+    right: -90% !important;
+    transition: right 1s;
+}
+.areaMoreInfo > div{
+    padding: 0;
+}
+
+.btMoreInfo{
+    padding: .3rem 1rem;
+    border-radius: 5rem;
+    border: 1px solid #00AEEF;
+    color: #fff;
+    cursor: pointer;
+}
+.btMoreInfo:hover{
+    background: #00AEEF;
+}
+.btMoreInfo:hover i{
+    color: #ffffff;
+}
+.iconEdit{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.articleMaster{
+    display: flex; align-items: center
+}
+.Select_Error{
+    border: 1px solid red !important;
+}
+
+
+.areaButton{
+    padding: 1rem;
+}
+.areaButton li{
+    list-style: none;
+    font-weight: normal;
+}

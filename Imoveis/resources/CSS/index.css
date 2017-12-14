@@ -1,0 +1,274 @@
+body {
+  overflow-x: hidden;
+}
+
+.areaMenu {
+  width: 100vw;
+  height: 8rem;
+  background: #fff;
+}
+
+.Search-area {
+  background: url("../IMG/BG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 42rem;
+  overflow: hidden;
+}
+
+.Search-area .container {
+  padding: 5rem 10rem;
+}
+
+.Search-area .container h1 {
+  font-size: 3.8rem;
+  color: #ffffff;
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding: 1rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.Search-area .container .areaForm {
+  display: flex;
+  padding: 2rem 5rem;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+.Search-area .container .areaForm input, .Search-area .container .areaForm select {
+  font-size: 1.8rem;
+  height: 60px;
+  border-radius: 0;
+}
+
+.Search-area .container .areaForm select {
+  width: 50%;
+}
+
+.Search-area .container .areaForm button {
+  border-radius: 0;
+}
+
+.Search-area .container .areaAnuncio {
+  padding: 2rem;
+}
+
+.Search-area .container .areaAnuncio p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px #333;
+}
+
+.Search-area .container .areaAnuncio button {
+  text-transform: uppercase;
+}
+
+.areaDown {
+  position: absolute;
+  margin-top: -2rem !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.areaDown .bt-descer {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: white;
+  color: #1190cd;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 3px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.areaSugestao {
+  padding: 3rem;
+  background: #f7f7f7f7 !important;
+}
+
+.areaSugestao .title {
+  padding: 2rem .3rem;
+  font-size: 2.5rem;
+}
+
+.areaSugestao .title:after {
+  content: '';
+  position: absolute;
+  border-bottom: 3px solid #1190cd;
+  left: 11rem;
+  width: 8rem;
+  margin-top: 45px;
+}
+
+.areaSugestao .btDestaque {
+  margin: 2.8rem 1.1rem;
+}
+
+.areaSugestao section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.areaSugestao section:hover img {
+  transition: all .5s;
+  transform: scale(1.1);
+}
+
+.areaSugestao section div {
+  background: #fff;
+  margin: 0 .8rem;
+  width: 96%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.areaSugestao section .areaIMG {
+  overflow: hidden;
+}
+
+.areaSugestao section img {
+  width: 100%;
+  height: 17rem;
+}
+
+.areaSugestao section .product-text {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.areaSugestao section .product-text .box-title {
+  padding: .3rem 0;
+  margin: 0;
+  height: auto;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.areaSugestao section .product-text .pro-price {
+  padding: .3rem 0;
+  padding-bottom: 0;
+  color: #00c292;
+  font-size: 1.7rem;
+}
+
+.areaSugestao section .product-text .city {
+  font-size: 1.4rem;
+}
+
+.areaSugestao section .product-text .city i {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.areaSugestao section .product-text small {
+  font-size: 1.1rem;
+}
+
+.areaSugestao .areaBTt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  position: absolute;
+  top: 2rem;
+  background: transparent;
+}
+
+.areaSugestao .areaBTt button {
+  border-radius: 0;
+  padding: .5rem;
+  font-size: 1.2rem;
+}
+
+.areaSugestao .areaBTt i {
+  margin: .5rem 1.5rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.areaSugestao .carousel-control {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+  line-height: 1rem;
+  top: 40%;
+}
+
+.areaSugestao .carousel-control i {
+  color: transparent;
+  font-size: 2rem !important;
+}
+
+.areaMarketing {
+  width: 100vw;
+  background: #fff;
+  padding: 3rem;
+}
+
+.areaMarketing .container li {
+  list-style: none;
+  padding: 5rem 3rem;
+}
+
+.areaMarketing .container li p {
+  text-align: justify;
+  color: #666;
+  padding: .3rem .8rem;
+}
+
+.areaMarketing .container li i {
+  font-size: 4.5rem;
+  color: #7460ee;
+}
+
+.areaEmail {
+  padding: 1rem 10rem;
+  margin-bottom: 5rem;
+  background: #1190cd;
+}
+
+.areaEmail h1, .areaEmail h4, .areaEmail i {
+  color: #ffffff;
+}
+
+.areaEmail h1 {
+  font-size: 3rem;
+}
+
+.areaEmail .input-group {
+  width: 30vw;
+  margin: .5rem auto;
+  padding: 1rem;
+}
+
+.areaParceiros {
+  padding: 2rem;
+  background: #ffffff;
+  border-bottom: 2px solid #eee;
+}
+
+.areaParceiros .title {
+  margin-top: 1rem;
+}
+
+.areaParceiros img {
+  margin: 0;
+}
